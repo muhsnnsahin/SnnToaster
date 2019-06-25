@@ -1,0 +1,118 @@
+body{
+    height: 2000px !important;
+}
+
+.snn-toasts{
+    position: fixed;
+    height: auto;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.snn-toasts-top-right,
+.snn-toasts-right-top,
+.snn-toasts-t-r,
+.snn-toasts-r-t{
+    top: 12px;
+    right: 12px;
+}
+
+.snn-toasts-top-left,
+.snn-toasts-left-top,
+.snn-toasts-t-l,
+.snn-toasts-l-t{
+    top: 12px;
+    left: 12px;
+}
+
+.snn-toasts-bottom-left,
+.snn-toasts-left-bottom,
+.snn-toasts-b-l,
+.snn-toasts-l-b{
+    bottom: 12px;
+    left: 12px;
+}
+
+.snn-toasts-bottom-right,
+.snn-toasts-right-bottom,
+.snn-toasts-b-r,
+.snn-toasts-r-b{
+    bottom: 12px;
+    right: 12px;
+}
+
+.snn-toasts-icon{
+    width: 40px;
+    display: inline-block;
+}
+
+.snn-toasts-icon i.fa{
+    font-size: 1.8em !important;
+}
+
+.snn-toasts-column{
+    max-width: 320px;
+    height: auto;
+    padding: 15px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    -moz-box-shadow: 0 0 12px #000;
+    -webkit-box-shadow: 0 0 12px #000;
+    box-shadow: 0 0 12px #000;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    position: relative;
+    display: none;
+}
+
+.snn-toasts-column .snn-toasts-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    display: inline-block;
+}
+
+.snn-toasts-column .snn-toasts-content{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 40px;
+    max-width: 280px;
+    display: inline-block;
+}
+
+.snn-toasts-column .snn-toasts-close-button{
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.snn-toasts-column .snn-toasts-close-button:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.snn-toasts .snn-toasts-success{
+    background-color: #51a351;
+}
+
+.snn-toasts .snn-toasts-info{
+    background-color: #2f96b4;
+}
+
+.snn-toasts .snn-toasts-warning{
+    background-color: #f89406;
+}
+
+.snn-toasts .snn-toasts-error{
+    background-color: #bd362f;
+}

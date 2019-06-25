@@ -1,0 +1,24 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body span.success {
+    color: #51a351;
+    font-weight: bold;
+}
+
+body span.info {
+    color: #2f96b4;
+    font-weight: bold;
+}
+
+body span.warning {
+    color: #f89406;
+    font-weight: bold;
+}
+
+body span.error {
+    color: #bd362f;
+    font-weight: bold;
+}
